@@ -16,8 +16,6 @@
 //     console.log("Eventtriggered");
     
 // })
-
-
 // btn.addEventListener("mouseup",function info(e){
 //     console.log(e);
     
@@ -100,3 +98,37 @@
 //     console.log(e);
     
 // })
+
+// !--------input/form event-------------------
+// !-1))
+// let username=document.getElementById("username")
+// username.addEventListener("input",function data(e){
+//     console.log(e.target.value);
+//     console.log("input event is triggered");
+// })
+// !-2.))
+// let username=document.getElementById("username")
+// username.addEventListener("focus",function data(e){
+//     console.log(e.target.value);
+//     console.log("focus event is triggered");
+// })
+
+// !---3.))
+// let username=document.getElementById("username")
+// username.addEventListener("blur",function data(e){
+//     console.log(e.target.value);
+//     console.log("blur event is triggered");
+// })
+// !-------4.))
+// let username=document.getElementById("username")
+// username.addEventListener("change",function data(e){
+//     console.log(e.target.value);
+//     console.log("change event is triggered");
+// })4
+
+// !_---------pointer event---------------------
+function info(e){
+    console.log(e);
+    console.log("Event is triggered");
+    
+}
