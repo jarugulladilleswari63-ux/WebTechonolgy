@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carts App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    font-family: Arial;
+    background:#f2f2f2;
+}
+.cart{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+.card{
+    width:200px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    padding:10px;
+    text-align:center;
+    transition:0.3s;
+}
+.card:hover{
+    transform:scale(1.05);
+}
+.card img{
+    width:100%;
+}
+    </style>
+</head>
+<body>
+<h1>Shopping Carts</h1>
+<div id="cartContainer"></div>
+<script src="./taskcard.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #container{
+            height: 700px;
+            width: 900px;
+            background-color: black;
+            margin-left: 100px;
+        }
+        #box1{
+            height: 500px;
+            width: 900px;
+            display: flex;
+        }
+        #box2{
+            height: 200px;
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        #part1{
+            height: 500px;
+            width: 450px;
+        }
+        #part2{
+            height: 500px;
+            width: 450px;
+            padding-top: 100px;
+            text-align: center;
+            box-sizing: border-box;
+                }
+        .circle{
+            height: 120px;
+            width: 120px;
+            border-radius: 50%; 
+             background-color: wheat; 
+            /* border: 5px solid green; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        i{
+            font-size: 95px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            margin-left: 75px;
+            margin-top: 95px;
+            border-radius: 50%;
+        }
+        #user_name{
+            font-size: 60px;
+            color: aliceblue;
+        }
+        .user_details{
+            font-size: 45px;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box1">
+            <div id="part1">
+                <img src="../html/Assets/christmas-9980861_1280.jpg " alt="">
+            </div>
+            <div id="part2">
+                <h1 id="user_name">Dilleswari</h1>
+                <h2 class="user_details">Frontend Development</h2>
+                <h2 class="user_details">9951171650</h2>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="circle">
+                <i class="fa-brands fa-facebook" style="color: blue;"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-brands fa-instagram" style="color: rgb(229, 20, 205);"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-brands fa-youtube" style="color: red;"></i>
+            </div>
+            <div class="circle"">
+                <i class="fa-brands fa-twitter" style="color: skyblue;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

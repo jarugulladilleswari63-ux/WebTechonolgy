@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        #root{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 20px;
+            /* background-color: blue; */
+        }
+        main{
+            height: 350px;
+            width: 300px;
+            background-color: aqua;
+            border: 2px solid red;
+            /* margin-top: 20px; */
+            padding: 25px;
+            transition: all 2s linear;
+        }
+        main:hover{
+            transform: translateX(600px) rotate(2turn);
+            /* border-radius: 30%; */
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="./taskquotes.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            gap: 80px;
+        }
+
+        /* Left content */
+        .left {
+            max-width: 450px;
+        }
+
+        .left h1 {
+            color: #1877f2;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .left p {
+            font-size: 22px;
+        }
+
+        /* Login box */
+        .login-box {
+            background: white;
+            padding: 20px;
+            width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-btn {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background-color: #166fe5;
+        }
+
+        .forgot {
+            display: block;
+            margin: 15px 0;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        hr {
+            margin: 20px 0;
+        }
+
+        .create-btn {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .create-btn:hover {
+            background-color: #36a420;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="left">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class="login-box">
+            <input type="text" placeholder="Email or Phone Number">
+            <input type="password" placeholder="Password">
+
+            <button class="login-btn">Log In</button>
+
+            <a href="#" class="forgot">Forgot account?</a>
+
+            <hr>
+
+            <button class="create-btn">Create New Account</button>
+        </div>
+    </div>
+
+</body>
+</html>

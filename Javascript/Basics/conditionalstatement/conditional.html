@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Iam learning conditional statement</h1> -->
+    <!-- <script src="./conditional.js"></script> -->
+     <!-- <script src="./conditional.js"></script> -->
+      <h2>Open Console (F12) to Play the Game 🎮</h2>
+
+<script>
+
+let n = 8;   // secret number
+
+while (true) {
+
+    let a = Number(prompt("Enter a number"));
+
+    if (a === n) {
+        console.log("🎉 Your guessing is correct!");
+        alert("You Won!");
+        break;
+    }
+    else if (a < n) {
+        console.log("Your number is smaller than my number");
+        alert("Try Bigger Number");
+    }
+    else if (a > n) {
+        console.log("Your number is greater than my number");
+        alert("Try Smaller Number");
+    }
+}
+
+</script>
+
+</body>
+</html>

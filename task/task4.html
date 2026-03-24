@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* background-color: black; */
+        background-image: url("https://images.pexels.com/photos/13237926/pexels-photo-13237926.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      #container {
+        height: 100%;
+        width: 1500px;
+        /* border:2px solid red; */
+        /* margin:100px auto; */
+        display: flex;
+      }
+      #box1 {
+        height: 100%;
+        width: 750px;
+
+        /* flex-direction: row; */
+        /* background-color: rgba(255, 255, 255, 0.5); */
+        /* background-color: rgba(0, 0, 0, 0.5); */
+      }
+      #box2 {
+        height: 100%;
+        width: 750px;
+      }
+      #nav {
+        height: 50px;
+        width: 700px;
+        /* border:2px solid white; */
+        margin: 18px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(61, 61, 77);
+        color: white;
+      }
+
+      #nav div:hover {
+        border-bottom: 2px solid white;
+      }
+      #h-line {
+        display: flex;
+        width: 900px;
+        height: 0px;
+        margin-left: 150px;
+        margin-top: -25px;
+        color: grey;
+      }
+      #circle {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        line-height: 220px;
+        font-size: 25px;
+        margin-top: 300px;
+        margin-left: 300px;
+        position: sticky;
+      }
+      a {
+        color: rgb(152, 144, 144);
+        text-decoration: none;
+        font-size: 15px;
+      }
+      a:hover {
+        color: rgb(236, 224, 225);
+      }
+      #circle1 {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: white;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 20px;
+        margin-left: 40px;
+      }
+      #sub1 {
+        height: 300px;
+        width: 500px;
+        margin-top: 360px;
+        margin-left: 150px;
+        color: rgb(234, 224, 224);
+
+      }
+      #sub1 p {
+        font-size: 26px;
+        /* margin-left:30px; */
+        text-align: center;
+        word-spacing: 5px;
+      }
+      #sub1 #head {
+        font-size: 120px;
+        margin-left: 150px;
+      
+        letter-spacing: 5px;
+        color: white;
+        margin-top: 8px;
+        margin-left: 70px;
+      }
+      .sp{
+        color:white;
+      }
+      #p2{
+       
+        margin-left: 60px;
+       margin-top: -80px;
+       font-size:18px;
+        
+      }
+      #head::first-letter{
+        color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box1">
+        <!-- <div id="circle1"></div> -->
+        <hr id="h-line" />
+        <div id="sub1">
+          <p>SO,YOU WANT TO TRAVEL TO</p>
+          <p id="head">SPACE</p>
+          <p id="p2">
+            Let's face it;if you want to  go to space, 
+            you might as well genuinely go to  outer space and not hover kind of on the edge of it
+            .Well sit back,and relax beacuse we'll give you a truly out of this world experience!
+          </p>
+        </div>
+      </div>
+      <div id="box2">
+        <div id="nav">
+          <div><a href=""><span class="sp">00 </span>HOME</a></div>
+          <div><a href=""><span class="sp">01 </span>DESTINATION</a></div>
+          <div><a href=""><span class="sp">02</span> CREW</a></div>
+          <div><a href=""><span class="sp">03</span> TECHNOLOGY</a></div>
+        </div>
+        <div id="circle">EXPLORE</div>
+      </div>
+    </div>
+  </body>
+</html>
